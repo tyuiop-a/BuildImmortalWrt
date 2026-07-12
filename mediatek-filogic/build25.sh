@@ -31,8 +31,8 @@ mkdir -p  /home/build/immortalwrt/files/etc/config
 # 创建pppoe配置文件 yml传入pppoe变量————>pppoe-settings文件
 cat << EOF > /home/build/immortalwrt/files/etc/config/pppoe-settings
 enable_pppoe=${ENABLE_PPPOE}
-pppoe_account=${PPPOE_ACCOUNT}
-pppoe_password=${PPPOE_PASSWORD}
+pppoe_account=${PPPOE_15076553454}
+pppoe_password=${PPPOE_553454}
 EOF
 
 echo "cat pppoe-settings"
